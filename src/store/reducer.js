@@ -1,7 +1,8 @@
 import * as types from './types'
 const initialState = {
   dress: null,
-  bag: null
+  bag: null,
+  accessory: null
 }
 const reducer = (state = initialState, action) => {
   console.log({ state, action });
@@ -32,6 +33,21 @@ const reducer = (state = initialState, action) => {
       return {
         ...state,
         bag: state.bag = false
+      }
+    case types.CHOOSE_ACCESSORY_CHOKER:
+      return {
+        ...state,
+        accessory: state.accessory = "choker"
+      }
+    case types.CHOOSE_ACCESSORY_GLASSES:
+      return {
+        ...state,
+        accessory: state.accessory = "glasses"
+      }
+    case types.CHOOSE_ACCESSORY_PENDANT:
+      return {
+        ...state,
+        accessory: state.accessory = "pendant"
       }
     default: return state
 
