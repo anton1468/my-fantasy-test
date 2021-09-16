@@ -1,0 +1,39 @@
+.bg-img {
+  width: 400px;
+  filter: brightness(30%);
+  position: absolute;
+}
+.card {
+  position: relative;
+}
+.dialog {
+  background-color: #fff;
+  width: 300px;
+  height: 50px;
+  z-index: 50;
+  position: absolute;
+  top: 300px;
+  left: 40px;
+}
+.man {
+  top: -20px;
+  left: 40px;
+  width: 270px;
+  position: absolute;
+}
+
+.dialog-none {
+  display: none;
+}
+.dialog-man-none {
+  display: none;
+}
+.dialog-girl-none {
+  display: none;
+}
+.girl {
+  top: 80px;
+  left: 40px;
+  width: 270px;
+  position: absolute;
+}

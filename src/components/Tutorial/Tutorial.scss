@@ -1,0 +1,52 @@
+.bg-img {
+  width: 400px;
+  filter: brightness(30%);
+  position: absolute;
+}
+.girl-tutorial {
+  top: -5px;
+  left: 40px;
+  width: 270px;
+  position: absolute;
+}
+.choose {
+  position: absolute;
+  height: 42px;
+  width: 300px;
+  top: -10px;
+  left: 50px;
+  background-color: black;
+  color: white;
+  border: 1px solid orange;
+  z-index: 50;
+  text-align: center;
+  border-radius: 16px;
+}
+.choose-none {
+  display: none;
+}
+.tutorial {
+  position: relative;
+}
+.choose-clothes {
+  position: absolute;
+  display: flex;
+  gap: 60px;
+  top: 400px;
+  left: 20px;
+  .dress {
+    background-color: #fff;
+    border-radius: 20px;
+    width: 150px;
+    text-align: center;
+    border: 1px solid orange;
+    transition: all 0.5s;
+    cursor: pointer;
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+  img {
+    height: 150px;
+  }
+}
