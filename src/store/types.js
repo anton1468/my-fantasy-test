@@ -1,2 +1,4 @@
 export const CHOOSE_DRESS = 'CHOOSE_DRESS'
 export const CHOOSE_SHIRT = 'CHOOSE_SHIRT'
+export const CHOOSE_BAG_BLUE = 'CHOOSE_BAG_BLUE'
+export const CHOOSE_BAG_ORANGE = 'CHOOSE_BAG_ORANGE'

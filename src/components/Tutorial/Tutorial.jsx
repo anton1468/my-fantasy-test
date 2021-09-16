@@ -26,7 +26,7 @@ const Tutorial = () => {
   const addShirt = () => {
     dispatch(chooseShirt());
     setTimeout(() => {
-      history.replace("/choose-bag");
+      history.push("/choose-bag");
     }, 3000);
   };
   console.log(history);

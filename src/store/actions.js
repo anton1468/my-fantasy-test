@@ -5,3 +5,9 @@ export const chooseDress = () => ({
 export const chooseShirt = () => ({
   type: types.CHOOSE_SHIRT,
 });
+export const chooseBagOrange = () => ({
+  type: types.CHOOSE_BAG_ORANGE,
+});
+export const chooseBagBlue = () => ({
+  type: types.CHOOSE_BAG_BLUE,
+});
